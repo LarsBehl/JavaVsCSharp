@@ -3,7 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
+    <!--This is the flag to control whether implicit-usings should be used or not-->
     <ImplicitUsings>enable</ImplicitUsings>
+    <!--
+      Nullable describes if the project should use nullability checks on compiletime.
+      When enabled, the compiler generates warnings when trying to assign null
+      to an non-nullable (reference-)type
+    -->
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
